@@ -16,13 +16,13 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 1. Calcolo il prezzo del biglietto moltiplicando il numero di chilometri da percorrere per 0.21
 
 2.
-IF l'età dell'utente è <= 65 anni
+IF l'età dell'utente è > 65 anni, cioè **over 65**
       elaboro messaggio "E' stato applicato il 40% di sconto" 
 
-ELSE IF l'età dell'utente è <= 18 anni e >=64 anni
+ELSE IF l'età dell'utente è > 18 anni e < 65 anni, cioè **fascia intermedia**
        elaboro messaggio "Nessuno sconto applicato"
 
-ELSE l'età dell'utente è >= 17 anni
+ELSE l'età dell'utente è < 18 anni, cioè **minorenne**
       elaboro messaggio "E' stato applicato il 20% di sconto"
      
 
